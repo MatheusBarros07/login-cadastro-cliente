@@ -7,7 +7,7 @@
 <p>percebemos que não tem dinamismo nenhum. está tudo muito "crú".</p>
 <h2>Resultado pós CSS:</h2>
 <img src="tela css1.png">
-<h3>Ao clicar na caixa de testo o alinhamento muda e caixa fica com as bordas mais claras:</h3>
+<h3>Ao clicar na caixa de texto "Usuário" ou "Senha", o alinhamento muda e as bordas ficam mais claras</h3>
 <img src="tela css2.png">
 <h3>Ao passar o mouse em cima do botão "Entrar" ele fica maior e diminui as caixas de texto, tornando a tela mais dinamica e não só, ele fica mais claro:</h3>
 <img src="tela css3.png">
