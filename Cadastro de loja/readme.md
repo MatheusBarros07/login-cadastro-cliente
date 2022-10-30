@@ -4,7 +4,7 @@
 <p>Transformar o HTML puro em algo bem estilizado e profissional. podemos ver ver na imagem anterior como a pagina seria apenas com HTML, nada intuitivo e muito simples e digamos... feio.</p>
 <h2>HTML:</h2>
 <img src="HTML puro.png">
-percebemos que não tem dinamismo nenhum. está tudo muito "crú".
+<p>percebemos que não tem dinamismo nenhum. está tudo muito "crú".</p>
 <h2>Resultado pós CSS:</h2>
 <img src="tela css1.png">
 <h3>Ao clicar na caixa de testo o alinhamento muda e caixa fica com as bordas mais claras:</h3>
