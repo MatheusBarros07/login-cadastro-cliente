@@ -3,7 +3,7 @@
 
 <p>Transformar o HTML puro em algo bem estilizado e profissional. podemos ver ver na imagem anterior como a pagina seria apenas com HTML, nada intuitivo e muito simples e digamos... feio.</p>
 <h2>HTML:</h2>
-<img src="HTML puro.png">
+<img src="HTML puro.png"> <br>
 <p>percebemos que não tem dinamismo nenhum. está tudo muito "crú".</p>
 <h2>Resultado pós CSS:</h2>
 <img src="tela css1.png">
