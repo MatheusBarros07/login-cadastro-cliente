@@ -67,3 +67,14 @@ form [type="submit"]:hover {
     width: 100px;
     margin-top: 8px;
 }
+p {
+    color: #CBD0F7;
+    text-align: center;
+}
+a {
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+}
