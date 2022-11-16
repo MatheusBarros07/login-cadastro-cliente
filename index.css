@@ -1,0 +1,139 @@
+body {
+    background-color: #1b1f27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: auto;
+}
+input, select {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #252A34;
+    border: none;
+    height: 30px;
+    outline: none;
+    border-radius: 12px;
+    padding-left: 16px;
+    color: #CBD0F7;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px  1px rgba(255,255,255,0.2);
+    transition: all .3s ease-in-out;
+    position: relative;
+    font-size: 13px;
+}
+input:focus, section:focus {
+    text-indent: 12px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+input:hover:not(form [type="radio"], form [type="checkbox"], form [type="submit"]), select:hover {
+    box-shadow: 0px 0px 10px 2px #686fa0;
+}
+.dados:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+.endereço:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+.contato:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+.senha:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255, 255, 255, 0.555);
+}
+.confirmações:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255, 255, 255, 0.452);
+}
+h1, p, legend, label, filter {
+    color: #CBD0F7;
+}
+.area-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    width: 800px;
+    height: 1200px;
+    padding: 35px;
+    border-radius: 20px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contato input {
+    width: 100%;
+}
+.senha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+.suasenha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.senha input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.cadastro form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+.confirmações {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.cadastrar {
+    display: block;
+    background-color: #5568FE;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cadastrar:hover {
+    height: 70px;
+    transition: 1s;
+    background-color: #7e8bec;
+    margin: 20px;
+}
+form [type="radio"] {
+    cursor: pointer;
+}
+form [type="checkbox"] {
+    cursor: pointer;
+}
