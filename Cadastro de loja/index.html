@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="cadastro_cliente.css">
+    <link rel="shortcut icon" href="logo-removebg-preview (1).png" type="image/x-icon">
+</head>
+<body>
+    <section class="area-cadastro">    
+        <div class="cadastro">
+            <img src="logo-removebg-preview (1).png">
+            <h1>Bem vindo! É uma satisfação ter você como nosso mais novo cliente</h1>
+            <form action="http://127.0.0.1:5500/Estudo%20de%20casos/Cadastro%20de%20loja/login_cliente.html">
+                <fieldset class="dados">
+                    <legend>Preencha seus dados pessoais</legend>
+                    <input type="text" name="nome" placeholder="Digite seu nome completo" autofocus title="Digite seu nome completo" required>
+                    <input type="text" name="cpf" placeholder="Digite seu cpf com pontos e traço" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" title="Digite o CPF no formato nnn.nnn.nnn-nn" required>
+                    <input type="text" name="rg" placeholder="Digite seu RG com traço" title="Digite o RG no formato nnnnnnnnn-nn" required>
+                    <input type="date" name="data_nascimento" placeholder="data nascimento" title="Digite sua data de nascimento">
+                    <input type="text" name="ocupacao" placeholder="Ocupação" title="DIgite sua ocupação">
+                    <select name="religião">
+                        <option value="religião" selected title="Selecione sua relião">Religião</option>
+                        <option value="catolico">Católico</option>
+                        <option value="Protestante">Protestante</option>
+                        <option value="Candoble">Candoblé</option>
+                        <option value="agnostico">Agnóstico</option>
+                        <option value="naoresponder">Não responder</option>                      
+                    </select>                   
+                </fieldset>
+                <fieldset class="endereço">
+                    <legend>Digite seu endereço completo</legend>
+                    <input type="text" placeholder="Digite sua Avenida ou Rua" name="rua">
+                    <input type="text" placeholder="Digite o Número">
+                    <input type="text" placeholder="Digite a Cidade">                    
+                    <select name="uf">
+                        <option value="uf" selected>UF</option>
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="ap">AP</option>
+                        <option value="am">AM</option>
+                        <option value="ba">BA</option>
+                        <option value="ce">CE</option>
+                        <option value="df">DF</option>
+                        <option value="es">ES</option>
+                        <option value="go">GO</option>
+                        <option value="ma">MA</option>
+                        <option value="mt">MT</option>
+                        <option value="ms">MS</option>
+                        <option value="mg">MG</option>
+                        <option value="pa">PA</option>
+                        <option value="pb">PB</option>
+                        <option value="pr">PR</option>
+                        <option value="pe">PE</option>
+                        <option value="pi">PI</option>
+                        <option value="rj">RJ</option>
+                        <option value="rn">RN</option>
+                        <option value="rs">RS</option>
+                        <option value="ro">RO</option>
+                        <option value="rr">RR</option>
+                        <option value="sc">SC</option>
+                        <option value="sp">SP</option>
+                        <option value="se">SE</option>
+                        <option value="to">TO</option>
+                    </select>
+                    <input type="text" placeholder="Digite o CEP com Traço" title="Digite o CEP no formato nnnnn-nnn">
+                    <input type="text" name="complemento" placeholder="Complemento">
+                </fieldset>
+                <fieldset class="contato">
+                    <legend>Informações de contato</legend>
+                    <input type="text" name="telefone" placeholder="Digite seu telefone com DDD" title="DIgite seu telefone no formato (xx)9nnnn-nnnn">
+                    <input type="email" placeholder="Digite seu E-mail" required title="Digite seu E-mail">
+                </fieldset>
+                <fieldset class="senha">
+                    <legend>Criar Senha</legend>
+                    <input type="password" name="senha" placeholder="Digite sua Senha" class="senha2">
+                    <input type="password" name="confsenha" placeholder="Digite sua Senha Novamente" class="confsenha2"> <br>
+                    <p class="suasenha">Sua senha deve ter no minimo 8 caracteres</p>
+                </fieldset>
+                <fieldset class="confirmações">
+                    <legend>Confirmações</legend>
+                    <input type="checkbox" name="politica"><label for="">Eu concordo com as <a href="https://github.com/MatheusBarros07">políticas</a> de confiabilidade deste site?</label> <br>
+                    <input type="radio"><label for="ofertas">Quero receber ofertas e novidades por SMS e E-mail</label> <br>
+                </fieldset>
+                <input type="submit" name="cadastrar" value="Cadastrar" class="cadastrar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
